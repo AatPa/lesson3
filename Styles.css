@@ -9,6 +9,10 @@ body{
     sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 /* container level css */
 .container{
     padding: 0rem 1rem;
