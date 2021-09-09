@@ -16,6 +16,11 @@ hr {
     margin: 2rem 0rem;
 }
 
+/* margins */
+.mardin-md{
+    margin: 2rem;;
+}
+
 /* container level css */
 .container {
     padding: 0rem 1rem;
@@ -84,7 +89,8 @@ hr {
 
 /* header */
 .hero {
-    padding: 2rem
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
