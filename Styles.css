@@ -27,7 +27,8 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -113,6 +114,9 @@ hr {
 
 section{
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -122,6 +126,25 @@ section{
 .off-white{
     background-color: var(--light-gray);
 }
+.white{
+    background-color: white;
+}
+
+/** projects **/
+.showcase-list {
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+  }
+  .showcase-list h1 {
+    margin: 0.5rem;
+  }
+  
+  .showcase-list p {
+    padding-bottom: 1rem;
+  }
 
 /* footer */
 
