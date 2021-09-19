@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/* background-color: #173F5F;
+opacity: 0.7;
+background: radial-gradient(circle, transparent 20%, #173F5F 20%, #173F5F 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #173F5F 20%, #173F5F 80%, transparent 80%, transparent) 40px 40px, linear-gradient(#b6e23e 3.2px, transparent 3.2px) 0 -1.6px, linear-gradient(90deg, #b6e23e 3.2px, #173F5F 3.2px) -1.6px 0;
+background-size: 80px 80px, 80px 80px, 40px 40px, 40px 40px; */
+
 :root {
     --primary-color:#b6e23e;
     --dark-gray: #4B5563;
@@ -15,8 +20,14 @@ body {
     font-family: 'Montserrat',
         sans-serif;
     margin: 0px;
+    padding: 0;
     background-color: var(--body);
     color: var(--text);
+    box-sizing: border-box;
+}
+
+.main-body{
+    background-image: url(/images/topography.svg);
 }
 
 hr {
@@ -142,6 +153,14 @@ section{
     background-color: var(--body-light);
 }
 
+.section-bottom{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 /** projects **/
 .showcase-list {
     /* padding: 2rem; */
@@ -153,9 +172,18 @@ section{
   .showcase-list h1 {
     margin: 0.5rem;
   }
-  
+
   .showcase-list p {
     padding-bottom: 1rem;
+  }
+
+  .showcase-list-bottom{
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
   }
 
 /* footer */
@@ -182,5 +210,5 @@ footer{
 
 .favicon{
     height: 40px;
-    
+
 }
