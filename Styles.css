@@ -167,7 +167,9 @@ footer{
     color:white;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-
+    font-size: 1.2rem;
+    font-weight: bolder;
+    height: 14vh;
 }
 
 .footer .link{
@@ -176,4 +178,9 @@ footer{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.favicon{
+    height: 40px;
+    
 }
