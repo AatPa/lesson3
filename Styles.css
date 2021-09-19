@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #B91C1C;
+    --primary-color:#b6e23e;
     --dark-gray: #4B5563;
-    --light-gray:#E5E7EB;
+    --light-gray:#D1D5DB;
+    --text:white;
+    --body:#173F5F;
+    --body-light:#1F2833;
+    --button:#b6e23e;
+    --nav-bar:#b6e23e;
 }
 
 body {
     font-family: 'Montserrat',
         sans-serif;
     margin: 0px;
+    background-color: var(--body);
+    color: var(--text);
 }
 
 hr {
@@ -24,6 +31,7 @@ hr {
 /* container level css */
 .container {
     padding: 0rem 1rem;
+    font-size: 1.2rem;
 }
 
 .container-center {
@@ -40,15 +48,15 @@ hr {
 
 
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--button);
     border-radius: 0.5rem;
     color: white
 }
 
 .link-secondary {
-    color: var(--primary-color);
+    color: var(--button);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--button);
 }
 
 
@@ -61,18 +69,22 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    font-size: 1.2rem;
 }
 
 /* navigation */
 .navigation {
-    background-color: var(--primary-color);
+    background-color: var(--nav-bar);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 14vh;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 1.4rem;
 }
 
 .navigation .link {
@@ -101,7 +113,7 @@ hr {
 }
 
 .hero .hero-heading {
-    color: var(--dark-gray);
+    color: var(--light-gray);
     padding-top: 1rem;
     text-align: center ;
 }
@@ -124,10 +136,10 @@ section{
 }
 
 .off-white{
-    background-color: var(--light-gray);
+    background-color: var(--body);
 }
 .white{
-    background-color: white;
+    background-color: var(--body-light);
 }
 
 /** projects **/
@@ -154,6 +166,7 @@ footer{
     text-align: center;
     color:white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 
 }
 
