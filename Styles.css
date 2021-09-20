@@ -42,7 +42,7 @@ hr {
 /* container level css */
 .container {
     padding: 0rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .container-center {
@@ -95,7 +95,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .navigation .link {
