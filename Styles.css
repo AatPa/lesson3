@@ -28,6 +28,7 @@ body {
 
 .main-body{
     background-image: url(/images/topography.svg);
+    font-size: 1.2rem;
 }
 
 hr {
@@ -42,7 +43,6 @@ hr {
 /* container level css */
 .container {
     padding: 0rem 1rem;
-    font-size: 1.3rem;
 }
 
 .container-center {
@@ -95,7 +95,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .navigation .link {
@@ -104,6 +104,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    font-size: 1.6rem;
 }
 
 .navigation .link-active {
@@ -119,6 +120,7 @@ hr {
 
 .hero .hero-image {
     max-width: 350px;
+    height: 300px;
     display: block;
     margin: auto;
 }
